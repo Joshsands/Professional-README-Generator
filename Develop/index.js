@@ -41,12 +41,17 @@ const promptUser = () => {
       type: "checkbox",
       name: "project_license",
       message: "Choose your license?",
-      choices: ["MIT", 'GNU-General-Public', 'None'],
+      choices: ["MIT", "GNU-General-Public", "None"],
     },
     {
       type: "input",
       name: "project_github",
       message: "Enter your GitHub username",
+    },
+    {
+      type: "input",
+      name: "project_email",
+      message: "Enter your email address",
     },
   ]);
 };
@@ -55,11 +60,11 @@ promptUser().then((data) => {
 
   return fs.writeFile("../dist/README.md", readme, (err) => {
     if (err) {
-        console.log(err)
+      console.log(err);
     }
-    console.log('Your README has been created!')
-    });
+    console.log("Your README has been created!");
   });
+});
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
