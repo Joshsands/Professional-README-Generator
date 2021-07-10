@@ -24,7 +24,7 @@ const promptUser = () => {
     },
     {
       type: "input",
-      name: "project_useage",
+      name: "project_usage",
       message: "What is this application used for?",
     },
     {
@@ -41,7 +41,7 @@ const promptUser = () => {
       type: "checkbox",
       name: "project_license",
       message: "Choose your license?",
-      choices: ["MIT License", "Other License"],
+      choices: ["MIT", 'GNU-General-Public', 'None'],
     },
     {
       type: "input",

@@ -1,31 +1,30 @@
-# TEST
+# test
 
-### Table of Contents
+## License
+[![license](https://img.shields.io/badge/license-MIT-brightgreen)](https://shields.io)
+
+## Table of Contents
 1. [Project Description](#project-description)
 2. [Installation Instructions](#installation-instructions)
 3. [Usage Information](#usage-information)
 4. [Contributor Guidelines](#contributor-guidelines)
 5. [Testing Instructions](#testing-instructions)
-6. [License](#license)
-7. [Follow Me](#follow-me)
+6. [Follow Me](#follow-me)
 
 ## Project Description
-* TEST
+* test
 
 ## Installation Instructions
-* TEST
+* test
 
 ## Usage Information
-* undefined
+* test
 
 ## Contributor Guidelines
-* TEST
+* test
 
 ## Test Instructions
-* TEST
-
-## License
-* licensed under the MIT License
+* test
 
 ## Follow Me
-* Follow me on Github at [TEST](http://github.com/TEST)
+* Follow me on Github at [test](http://github.com/test)
