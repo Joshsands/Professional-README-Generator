@@ -1,7 +1,7 @@
 # test
 
 ## License
-[![license](https://img.shields.io/badge/license-GNU-General-Public-brightgreen)](https://shields.io)
+[![license](https://img.shields.io/badge/license-GNU--General--Public-brightgreen)](https://shields.io)
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -27,5 +27,5 @@
 * test
 
 ## Contact Me
-* Find me on Github at [joshsands](http://github.com/joshsands)
-* E-mail me at josh.sands@mail.com.
+* Find me on Github at [test](http://github.com/test)
+* E-mail me at test.

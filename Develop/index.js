@@ -41,7 +41,7 @@ const promptUser = () => {
       type: "checkbox",
       name: "project_license",
       message: "Choose your license?",
-      choices: ["MIT", "GNU-General-Public", "None"],
+      choices: ["MIT", "GNU--General--Public", "None"],
     },
     {
       type: "input",
