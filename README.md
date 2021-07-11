@@ -13,7 +13,9 @@
 7. [Questions](#questions)
 
 ## Visual Demonstration
-<iframe src="https://drive.google.com/file/d/1cWCewFhBBFHw4iQNOVAuDtQZIT4vTlca/preview" width="640" height="480"></iframe>
+![Professional README Generator Demo](./demo/prg.gif)
+
+[FULL RESOLUTION DEMO HERE](https://youtu.be/fMaig__y1lE)
 
 ## Project Description
 * The above screen capture demonstrates how this application works. The application prompts a user for information about their project in order to fill in sections that are normally seen on a professional README file.
@@ -25,9 +27,9 @@
 * Open terminal and make sure you are in the "Develop" directory. Then enter "node index.js" and answer the prompts that follow. After answering all the questions the README.md file will generate in the "dist" directory.
 
 ## Contributor Guidelines
-* [Submit bugs and feature requests](https://github.com/joshsands/Professional-README-Generator/issues)
-* Review [source code changes](https://github.com/joshsands/Professional-README-Generator/pulls)
-* Review the [documentation](https://github.com/joshsands/Professional-README-Generator-docs) and make pull requests for anything from typos to new content
+* [Submit bugs and feature requests](https://github.com/joshsands/Professional-README-Generator/issues).
+* Review [source code changes](https://github.com/joshsands/Professional-README-Generator/pulls).
+* Review the [documentation](https://github.com/joshsands/Professional-README-Generator-docs) and make pull requests for anything from typos to new content.
 
 ## Test Instructions
 * None
@@ -39,5 +41,5 @@ The source code for the site is licensed under the MIT license and can be found 
       
 
 ## Questions?
-* Find me on Github at [Joshsands](http://github.com/Joshsands)
+* Find me on Github at [Joshsands](http://github.com/Joshsands).
 * E-mail me at josh.sands@mail.com.

@@ -16,7 +16,7 @@
 * The application prompts a user for information about their project in order to fill in sections that are normally seen on a professional README file.
 
 ## Installation Instructions
-* Pull the Github repository to your local drive, open it in an ide and enter "npm install inquirer" in the terminal to install the inquirer node modules in the root folder.
+* Pull the Github repository to your local drive, open it in an IDE and enter "npm install inquirer" in the terminal to install the inquirer node modules in the root folder.
 
 ## Usage Information
 * Open terminal and make sure you are in the "Develop" directory. Then enter "node index.js" and answer the prompts that follow. After answering all the questions the README.md file will generate in the "dist" directory.
