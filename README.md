@@ -13,7 +13,7 @@
 7. [Questions](#questions)
 
 ## Visual Demonstration
-![Professional Readme Generator Demo](demo/readme-generator.gif)
+![Professional Readme Generator Demo](./demo/mp4)
 
 ## Project Description
 * The above screen capture demonstrates how this application works. The application prompts a user for information about their project in order to fill in sections that are normally seen on a professional README file.
