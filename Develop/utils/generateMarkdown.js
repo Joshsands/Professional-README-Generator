@@ -27,27 +27,27 @@ function renderLicenseSection(license) {
   for (let i = 0; i < license.length; i++) {
     if (license[i] === "MIT") {
       return `
-      Copyright ${new Date().getFullYear()}
-      The source code for the site is licensed under the MIT license and can be found at the link below:
-      [License Info Link](https://opensource.org/licenses/MIT)
+Copyright ${new Date().getFullYear()}
+The source code for the site is licensed under the MIT license and can be found at the link below:
+[License Info Link](https://opensource.org/licenses/MIT)
       `;
     } else if (license[i] === "GNU-GPL-v3") {
       return `
-      Copyright ${new Date().getFullYear()}
-      The source code for the site is licensed under the GNU-GPL-v3 license and can be found at the link below:
-      [License Info Link](https://www.gnu.org/licenses/gpl-3.0)
+Copyright ${new Date().getFullYear()}
+The source code for the site is licensed under the GNU-GPL-v3 license and can be found at the link below:
+[License Info Link](https://www.gnu.org/licenses/gpl-3.0)
       `;
     } else if (license[i] === "Apache") {
       return `
-      Copyright ${new Date().getFullYear()}
-      The source code for the site is licensed under the Apache license and can be found at the link below:
-      [License Info Link](https://opensource.org/licenses/Apache-2.0)
+Copyright ${new Date().getFullYear()}
+The source code for the site is licensed under the Apache license and can be found at the link below:
+[License Info Link](https://opensource.org/licenses/Apache-2.0)
       `;
     } else if (license[i] === "Unlicensed") {
       return `
-      Copyright ${new Date().getFullYear()}
-      The source code for the site is licensed under the Unlicensed license and can be found at the link below:
-      [License Info Link](https://unlicense.org/)
+Copyright ${new Date().getFullYear()}
+The source code for the site is licensed under the Unlicensed license and can be found at the link below:
+[License Info Link](https://unlicense.org/)
       `;
     } else {
       return ``;
@@ -87,7 +87,7 @@ ${renderLicenseBadge(data.project_license)}
 * ${data.project_test}
 
 ## License Info
-* ${renderLicenseSection(data.project_license)}
+${renderLicenseSection(data.project_license)}
 
 ## Questions?
 * Find me on Github at [${data.project_github}](http://github.com/${

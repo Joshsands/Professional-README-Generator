@@ -1,7 +1,7 @@
 # 
 
 ## License
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -28,10 +28,10 @@
 * 
 
 ## License Info
-* 
-      Copyright 2021
-      The source code for the site is licensed under the Unlicensed license and can be found at the link below:
-      [License Info Link](https://unlicense.org/)
+
+Copyright 2021
+The source code for the site is licensed under the Apache license and can be found at the link below:
+[License Info Link](https://opensource.org/licenses/Apache-2.0)
       
 
 ## Questions?
