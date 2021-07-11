@@ -1,18 +1,59 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  if ((license = "MIT")) {
-    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  for (let i = 0; i < license.length; i++) {
+    if (license[i] === "MIT") {
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    } else if (license[i] === "GNU-GPL-v3") {
+      return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+    } else if (license[i] === "Apache") {
+      return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+    } else if (license[i] === "Unlicensed") {
+      return `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`;
+    } else {
+      return ``;
+    }
   }
-};
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+// function renderLicenseLink(license) {}
+// LINK IS INCLUDED IN renderLicenseBadge function
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  for (let i = 0; i < license.length; i++) {
+    if (license[i] === "MIT") {
+      return `
+      Copyright ${new Date().getFullYear()}
+      The source code for the site is licensed under the MIT license and can be found at the link below:
+      [License Info Link](https://opensource.org/licenses/MIT)
+      `;
+    } else if (license[i] === "GNU-GPL-v3") {
+      return `
+      Copyright ${new Date().getFullYear()}
+      The source code for the site is licensed under the GNU-GPL-v3 license and can be found at the link below:
+      [License Info Link](https://www.gnu.org/licenses/gpl-3.0)
+      `;
+    } else if (license[i] === "Apache") {
+      return `
+      Copyright ${new Date().getFullYear()}
+      The source code for the site is licensed under the Apache license and can be found at the link below:
+      [License Info Link](https://opensource.org/licenses/Apache-2.0)
+      `;
+    } else if (license[i] === "Unlicensed") {
+      return `
+      Copyright ${new Date().getFullYear()}
+      The source code for the site is licensed under the Unlicensed license and can be found at the link below:
+      [License Info Link](https://unlicense.org/)
+      `;
+    } else {
+      return ``;
+    }
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -46,7 +87,7 @@ ${renderLicenseBadge(data.project_license)}
 * ${data.project_test}
 
 ## License Info
-* ${data.project_test}
+* ${renderLicenseSection(data.project_license)}
 
 ## Questions?
 * Find me on Github at [${data.project_github}](http://github.com/${
