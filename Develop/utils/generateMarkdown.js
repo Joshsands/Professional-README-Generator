@@ -1,6 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if ((license = "MIT")) {
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+  }
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -15,7 +19,7 @@ function generateMarkdown(data) {
   return `# ${data.project_title}
 
 ## License
-[![license](https://img.shields.io/badge/license-${data.project_license}-brightgreen)](https://shields.io)
+${renderLicenseBadge(data.project_license)}
 
 ## Table of Contents
 1. [Project Description](#project-description)
@@ -23,7 +27,8 @@ function generateMarkdown(data) {
 3. [Usage Information](#usage-information)
 4. [Contributor Guidelines](#contributor-guidelines)
 5. [Testing Instructions](#testing-instructions)
-6. [Follow Me](#follow-me)
+6. [License Info](#license-info)
+7. [Questions](#questions)
 
 ## Project Description
 * ${data.project_description}
@@ -40,8 +45,13 @@ function generateMarkdown(data) {
 ## Test Instructions
 * ${data.project_test}
 
-## Contact Me
-* Find me on Github at [${data.project_github}](http://github.com/${data.project_github})
+## License Info
+* ${data.project_test}
+
+## Questions?
+* Find me on Github at [${data.project_github}](http://github.com/${
+    data.project_github
+  })
 * E-mail me at ${data.project_email}.
 `;
 }
